@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style2.css">
+  <body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label for=""></label>
+    <label class="logo">Sachusaji.xyz</label>
+    <ul>
+      <li><a class="home" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+  </nav>
+  <style>
+  *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;   
+  }
+  body{
+    font-family:montserrat;
+
+  }
+  nav{
+    background:rgb(111, 92, 148);
+    height: 80px;
+    width:100%;
+
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 100px ;
+    line-height: 80px;
+    font-weight: bold;
+  }
+  nav ul{
+    float:right ;
+    margin-right: 20px;
+
+  }
+  nav ul li{
+    display:inline-block;
+    line-height: 50px;
+    margin:  0 0 0 7px;
+  }
+  nav ul li a{
+    color:black;
+    font-size: 17px;
+    padding: 7px 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+  }
+  a.home,a:hover{
+    background: blue;
+    transition: 5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+    nav ul li a{
+      font-size: 16px;
+  }
+  </style>
+  
+</body>
+</html>
